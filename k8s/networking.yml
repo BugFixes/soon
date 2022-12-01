@@ -17,7 +17,7 @@ spec:
         - www.bugfix.es
         - bugfixes.dev
         - www.bugfixes.dev
-      secretName: bugfixes-soon
+      secretName: bugfixes-soon-tls1
   rules:
     - host: bugfix.es
       http:
@@ -39,7 +39,7 @@ spec:
                   number: 80
             path: /
             pathType: Prefix
-    - host: www.bugfixes.dev
+    - host: bugfixes.dev
       http:
         paths:
           - backend:
